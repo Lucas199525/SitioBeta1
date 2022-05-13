@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://kit.fontawesome.com/9c05e8dd7e.js" crossorigin="anonymous"></script>
+    <title>Lucas SIANI</title>
+  </head>
+  <body>
+    <header class="header">  
+      <!--switch modo darck light--> 
+        <div class="switches">
+          <div id="toggle-theme" class="toggle-theme">
+            <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon theme" class="toggle-theme_icon"/>
+            <p id="toggle-text" class="toggle-theme_text">Dark Mode</p>
+          </div>
+        </div>
+        <!--cambio de color-->
+        <div id="toggle-colors" class="colors">
+          <div data-color="hsl(181, 79%, 70%)" class="colors_item colors_item--blue"></div>
+          <div data-color="hsl(159, 79%, 70%)" class="colors_item colors_item--green"></div>
+          <div data-color="hsl(276, 79%, 70%)" class="colors_item colors_item--purple"></div>
+          <div data-color="hsl(55, 79%, 70%)" class="colors_item colors_item--orange"></div>
+        </div>
+       
+    </header>
+    <main class=" main"> 
+       <!--columna izquierda-->
+      <section class="column column--left">
+                <!---card-->
+         <article class="card card--profile">
+           <div class="card__image-container">
+             <img src="/assets/images/profile.jpeg" alt=""/>
+           </div>
+           <div class="card__header">
+             <h2 class="card__title">Lucas SIANI</h2>
+             <p class="card__subtitle">Developpeur d'application</p>
+           </div>
+           <div class="card__body">
+             <div class="card__link">
+               <i class="fas fa-envelope icon"></i>
+               <a href="mailto:lucasfauresiani@gmail.com">lucasfauresiani@gmail.com</a>
+             </div>
+             <div class="card__link">
+              <i class="fa-solid fa-phone icon"></i>
+              <a href="tel:+330614819048">+330614819048</a>
+            </div>
+            <p class="card__text">
+              "Lorem ipsum dolor sit amet,
+               consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/>
+                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            </p>
+           </div>
+
+         </article>
+      </section>
+      <!--columna derecha-->
+      <section class=" column column--right">
+        <article class="card">
+          <h2 class=" card__title">Fron End</h2>
+          <div class="skills">
+            <p class="skills__tech">HTML</p>
+            <div class="skills__bar skills__bar--80"></div>
+          </div>
+        </article>
+      </section>
+
+    </main>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
