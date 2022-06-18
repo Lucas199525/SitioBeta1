@@ -27,5 +27,10 @@ toggleColors.addEventListener('click',(e) =>{
  rootStyles.setProperty('--primary-color',e.target.dataset.color);
 });
 /**
- * new effect
+ * Menu
  */
+ const menu = document.getElementById('menu1');
+ const mostrar = document.getElementById('despliegue1');
+ menu.addEventListener('click', function(){
+  mostrar.classList.toggle("mostrar");
+ });
